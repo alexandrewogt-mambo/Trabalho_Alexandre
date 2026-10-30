@@ -1,0 +1,15 @@
+-- CREATE TABLE IF NOT EXISTS usuarios (
+-- id      INT AUTO_INCREMENT PRIMARY KEY,
+-- usuario VARCHAR(50)  NOT NULL UNIQUE,
+--senha   VARCHAR(255) NOT NULL
+-- );
+
+-- INSERT INTO usuarios (usuario, senha) VALUES ('admin', '$2y$10$zmiO1SKUxtzuSzWnSL5gFehOLtmMkSoI/wX8JtFkp.fZoqs0MfoOO');
+
+
+
+-- #####################################################################
+-- ##                                                                 ##
+-- ##     copie e cole o conteúdo deste arquivo no phpMyAdmin         ##
+-- ##                                                                 ##
+-- #####################################################################

@@ -1,0 +1,159 @@
+/* Tema escuro lolicore: roxo profundo com corações */
+
+body {
+  background:
+    radial-gradient(circle at 12% 18%, rgba(255, 138, 196, .16) 0, transparent 28%),
+    radial-gradient(circle at 85% 12%, rgba(195, 155, 255, .16) 0, transparent 30%),
+    radial-gradient(circle at 70% 85%, rgba(255, 79, 163, .12) 0, transparent 30%),
+    url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cpath d='M60 96S20 68 20 42a20 20 0 0 1 40-8 20 20 0 0 1 40 8c0 26-40 54-40 54z' fill='%23ff8ac4' fill-opacity='0.35'/%3E%3C/svg%3E"),
+    #14091f !important;
+  color: #ffe3f1 !important;
+}
+
+header,
+footer,
+main,
+nav,
+table,
+th,
+td,
+tr,
+.ficha,
+.aviso,
+.linha,
+.busca,
+.paginacao {
+  background: rgba(36, 20, 48, .92) !important;
+  color: #ffe3f1 !important;
+  border-color: #ff8ac4 !important;
+}
+
+h1,
+h2,
+h3 {
+  color: #ff8ac4 !important;
+  text-shadow: 2px 2px 0 rgba(255, 255, 255, .08) !important;
+}
+
+a {
+  color: #ff8ac4 !important;
+}
+
+button {
+  background: linear-gradient(#4b2a5e, #3a2149) !important;
+  color: #ffe3f1 !important;
+  border: 2px solid #ff8ac4 !important;
+  box-shadow: 2px 2px 0 rgba(195, 155, 255, .45) !important;
+}
+
+button:hover {
+  background: linear-gradient(#5c3273, #4b2a5e) !important;
+}
+
+input,
+select,
+textarea {
+  background: #1b1024 !important;
+  color: #ffe3f1 !important;
+  border: 2px solid #ff8ac4 !important;
+}
+
+table {
+  border-collapse: collapse !important;
+}
+
+th,
+td {
+  border: 1px solid rgba(255, 138, 196, .55) !important;
+}
+
+.aviso {
+  border-style: dashed !important;
+}
+
+.rodape-caixa {
+  background: rgba(36, 20, 48, .92) !important;
+  color: #ffe3f1 !important;
+  border-color: #ff8ac4 !important;
+  box-shadow: 4px 4px 0 rgba(195, 155, 255, .45) !important;
+}
+
+.rodape-linha + .rodape-linha {
+  border-top: 1px dashed #ff8ac4 !important;
+}
+
+/* Textos e formulários legíveis no tema escuro */
+
+label,
+small,
+p,
+li,
+td,
+th,
+span,
+h1,
+h2,
+h3,
+b,
+strong {
+  color: #ffe3f1 !important;
+}
+
+input,
+select,
+textarea {
+  background: #1b1024 !important;
+  color: #ffe3f1 !important;
+  border: 2px solid #ff8ac4 !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #c9a6d9 !important;
+}
+
+.ficha label,
+.ficha small,
+.ficha p {
+  color: #ffe3f1 !important;
+}
+
+.ficha input,
+.ficha select,
+.ficha textarea {
+  background: #1b1024 !important;
+  color: #ffe3f1 !important;
+}
+
+.aviso {
+  background: #3a2149 !important;
+  color: #ffe3f1 !important;
+  border: 2px dashed #ff8ac4 !important;
+}
+
+.grafico {
+  background: rgba(36, 20, 48, .92) !important;
+  border-color: #ff8ac4 !important;
+  box-shadow: 4px 4px 0 rgba(195, 155, 255, .45) !important;
+}
+
+.grafico-info {
+  color: #ffe3f1 !important;
+}
+
+.barra {
+  background: #1b1024 !important;
+  border-color: #ff8ac4 !important;
+}
+
+/* Caixa de resumo legível no tema escuro */
+.resumo {
+  background: #241430 !important;
+  color: #ffe3f1 !important;
+  border: 2px solid #ff8ac4 !important;
+}
+
+.resumo b,
+.resumo strong {
+  color: #ff8ac4 !important;
+}
